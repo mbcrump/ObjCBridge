@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8696E7081B57027B009C936F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8696E7071B57027B009C936F /* AppDelegate.swift */; };
+		8696E70A1B57027B009C936F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8696E7091B57027B009C936F /* ViewController.swift */; };
+		8696E70D1B57027B009C936F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8696E70B1B57027B009C936F /* Main.storyboard */; };
+		8696E70F1B57027B009C936F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8696E70E1B57027B009C936F /* Images.xcassets */; };
+		8696E7121B57027B009C936F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8696E7101B57027B009C936F /* LaunchScreen.xib */; };
+		8696E71E1B57027B009C936F /* BridgingHeaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8696E71D1B57027B009C936F /* BridgingHeaderTests.swift */; };
+		8696E7281B570370009C936F /* TelerikUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8696E7271B570370009C936F /* TelerikUI.framework */; };
+		8696E72B1B570415009C936F /* Objective-CBridgingHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8696E72A1B570415009C936F /* Objective-CBridgingHeader.m */; };
+		8696E72D1B57090D009C936F /* UIButton_Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8696E72C1B57090D009C936F /* UIButton_Circle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8696E7181B57027B009C936F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8696E6FA1B57027B009C936F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8696E7011B57027B009C936F;
+			remoteInfo = BridgingHeader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8696E7021B57027B009C936F /* BridgingHeader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BridgingHeader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8696E7061B57027B009C936F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8696E7071B57027B009C936F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8696E7091B57027B009C936F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8696E70C1B57027B009C936F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8696E70E1B57027B009C936F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8696E7111B57027B009C936F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8696E7171B57027B009C936F /* BridgingHeaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BridgingHeaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8696E71C1B57027B009C936F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8696E71D1B57027B009C936F /* BridgingHeaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgingHeaderTests.swift; sourceTree = "<group>"; };
+		8696E7271B570370009C936F /* TelerikUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TelerikUI.framework; path = Library/Frameworks/TelerikUI.framework; sourceTree = DEVELOPER_DIR; };
+		8696E7291B570415009C936F /* BridgingHeader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BridgingHeader-Bridging-Header.h"; sourceTree = "<group>"; };
+		8696E72A1B570415009C936F /* Objective-CBridgingHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Objective-CBridgingHeader.m"; sourceTree = "<group>"; };
+		8696E72C1B57090D009C936F /* UIButton_Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton_Circle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8696E6FF1B57027B009C936F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8696E7281B570370009C936F /* TelerikUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8696E7141B57027B009C936F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8696E6F91B57027B009C936F = {
+			isa = PBXGroup;
+			children = (
+				8696E7271B570370009C936F /* TelerikUI.framework */,
+				8696E7041B57027B009C936F /* BridgingHeader */,
+				8696E71A1B57027B009C936F /* BridgingHeaderTests */,
+				8696E7031B57027B009C936F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8696E7031B57027B009C936F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8696E7021B57027B009C936F /* BridgingHeader.app */,
+				8696E7171B57027B009C936F /* BridgingHeaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8696E7041B57027B009C936F /* BridgingHeader */ = {
+			isa = PBXGroup;
+			children = (
+				8696E7071B57027B009C936F /* AppDelegate.swift */,
+				8696E7091B57027B009C936F /* ViewController.swift */,
+				8696E72C1B57090D009C936F /* UIButton_Circle.swift */,
+				8696E72A1B570415009C936F /* Objective-CBridgingHeader.m */,
+				8696E70B1B57027B009C936F /* Main.storyboard */,
+				8696E70E1B57027B009C936F /* Images.xcassets */,
+				8696E7101B57027B009C936F /* LaunchScreen.xib */,
+				8696E7051B57027B009C936F /* Supporting Files */,
+				8696E7291B570415009C936F /* BridgingHeader-Bridging-Header.h */,
+			);
+			path = BridgingHeader;
+			sourceTree = "<group>";
+		};
+		8696E7051B57027B009C936F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8696E7061B57027B009C936F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8696E71A1B57027B009C936F /* BridgingHeaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				8696E71D1B57027B009C936F /* BridgingHeaderTests.swift */,
+				8696E71B1B57027B009C936F /* Supporting Files */,
+			);
+			path = BridgingHeaderTests;
+			sourceTree = "<group>";
+		};
+		8696E71B1B57027B009C936F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8696E71C1B57027B009C936F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8696E7011B57027B009C936F /* BridgingHeader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8696E7211B57027B009C936F /* Build configuration list for PBXNativeTarget "BridgingHeader" */;
+			buildPhases = (
+				8696E6FE1B57027B009C936F /* Sources */,
+				8696E6FF1B57027B009C936F /* Frameworks */,
+				8696E7001B57027B009C936F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BridgingHeader;
+			productName = BridgingHeader;
+			productReference = 8696E7021B57027B009C936F /* BridgingHeader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8696E7161B57027B009C936F /* BridgingHeaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8696E7241B57027B009C936F /* Build configuration list for PBXNativeTarget "BridgingHeaderTests" */;
+			buildPhases = (
+				8696E7131B57027B009C936F /* Sources */,
+				8696E7141B57027B009C936F /* Frameworks */,
+				8696E7151B57027B009C936F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8696E7191B57027B009C936F /* PBXTargetDependency */,
+			);
+			name = BridgingHeaderTests;
+			productName = BridgingHeaderTests;
+			productReference = 8696E7171B57027B009C936F /* BridgingHeaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8696E6FA1B57027B009C936F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Michael Crump";
+				TargetAttributes = {
+					8696E7011B57027B009C936F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8696E7161B57027B009C936F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8696E7011B57027B009C936F;
+					};
+				};
+			};
+			buildConfigurationList = 8696E6FD1B57027B009C936F /* Build configuration list for PBXProject "BridgingHeader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8696E6F91B57027B009C936F;
+			productRefGroup = 8696E7031B57027B009C936F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8696E7011B57027B009C936F /* BridgingHeader */,
+				8696E7161B57027B009C936F /* BridgingHeaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8696E7001B57027B009C936F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8696E70D1B57027B009C936F /* Main.storyboard in Resources */,
+				8696E7121B57027B009C936F /* LaunchScreen.xib in Resources */,
+				8696E70F1B57027B009C936F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8696E7151B57027B009C936F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8696E6FE1B57027B009C936F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8696E72B1B570415009C936F /* Objective-CBridgingHeader.m in Sources */,
+				8696E70A1B57027B009C936F /* ViewController.swift in Sources */,
+				8696E7081B57027B009C936F /* AppDelegate.swift in Sources */,
+				8696E72D1B57090D009C936F /* UIButton_Circle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8696E7131B57027B009C936F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8696E71E1B57027B009C936F /* BridgingHeaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8696E7191B57027B009C936F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8696E7011B57027B009C936F /* BridgingHeader */;
+			targetProxy = 8696E7181B57027B009C936F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8696E70B1B57027B009C936F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8696E70C1B57027B009C936F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8696E7101B57027B009C936F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8696E7111B57027B009C936F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8696E71F1B57027B009C936F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8696E7201B57027B009C936F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8696E7221B57027B009C936F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				INFOPLIST_FILE = BridgingHeader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BridgingHeader/BridgingHeader-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8696E7231B57027B009C936F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				INFOPLIST_FILE = BridgingHeader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BridgingHeader/BridgingHeader-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		8696E7251B57027B009C936F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BridgingHeaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BridgingHeader.app/BridgingHeader";
+			};
+			name = Debug;
+		};
+		8696E7261B57027B009C936F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BridgingHeaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BridgingHeader.app/BridgingHeader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8696E6FD1B57027B009C936F /* Build configuration list for PBXProject "BridgingHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8696E71F1B57027B009C936F /* Debug */,
+				8696E7201B57027B009C936F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8696E7211B57027B009C936F /* Build configuration list for PBXNativeTarget "BridgingHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8696E7221B57027B009C936F /* Debug */,
+				8696E7231B57027B009C936F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8696E7241B57027B009C936F /* Build configuration list for PBXNativeTarget "BridgingHeaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8696E7251B57027B009C936F /* Debug */,
+				8696E7261B57027B009C936F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8696E6FA1B57027B009C936F /* Project object */;
+}
